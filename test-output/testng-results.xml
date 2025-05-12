@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-09T09:15:00 IST" name="Suite" finished-at="2025-05-09T09:15:42 IST" duration-ms="41215">
+  <suite started-at="2025-05-12T09:14:26 IST" name="Suite" finished-at="2025-05-12T09:15:16 IST" duration-ms="49943">
     <groups>
       <group name="ErrorHandling">
         <method signature="ErrorValidations.LoginErrorMessage()[pri:0, instance:rahulshettyacademy.Tests.ErrorValidations@4d518b32]" name="LoginErrorMessage" class="rahulshettyacademy.Tests.ErrorValidations"/>
@@ -11,41 +11,41 @@
         <method signature="StandAloneTesting.SubmitOrder(java.util.HashMap)[pri:0, instance:rahulshettyacademy.Tests.StandAloneTesting@222a59e6]" name="SubmitOrder" class="rahulshettyacademy.Tests.StandAloneTesting"/>
       </group> <!-- Purchase -->
     </groups>
-    <test started-at="2025-05-09T09:15:00 IST" name="ErrorValidation" finished-at="2025-05-09T09:15:23 IST" duration-ms="22343">
+    <test started-at="2025-05-12T09:14:26 IST" name="ErrorValidation" finished-at="2025-05-12T09:14:54 IST" duration-ms="28330">
       <class name="rahulshettyacademy.Tests.ErrorValidations">
-        <test-method is-config="true" signature="lunchAplication()[pri:0, instance:rahulshettyacademy.Tests.ErrorValidations@4d518b32]" started-at="2025-05-09T09:15:00 IST" name="lunchAplication" finished-at="2025-05-09T09:15:06 IST" duration-ms="5075" status="PASS">
+        <test-method is-config="true" signature="lunchAplication()[pri:0, instance:rahulshettyacademy.Tests.ErrorValidations@4d518b32]" started-at="2025-05-12T09:14:28 IST" name="lunchAplication" finished-at="2025-05-12T09:14:34 IST" duration-ms="6354" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunchAplication -->
-        <test-method signature="LoginErrorMessage()[pri:0, instance:rahulshettyacademy.Tests.ErrorValidations@4d518b32]" started-at="2025-05-09T09:15:06 IST" name="LoginErrorMessage" finished-at="2025-05-09T09:15:06 IST" duration-ms="694" status="PASS">
+        <test-method signature="LoginErrorMessage()[pri:0, instance:rahulshettyacademy.Tests.ErrorValidations@4d518b32]" started-at="2025-05-12T09:14:34 IST" name="LoginErrorMessage" finished-at="2025-05-12T09:14:35 IST" duration-ms="824" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginErrorMessage -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:rahulshettyacademy.Tests.ErrorValidations@4d518b32]" started-at="2025-05-09T09:15:06 IST" name="teardown" finished-at="2025-05-09T09:15:06 IST" duration-ms="211" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:rahulshettyacademy.Tests.ErrorValidations@4d518b32]" started-at="2025-05-12T09:14:35 IST" name="teardown" finished-at="2025-05-12T09:14:36 IST" duration-ms="511" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="lunchAplication()[pri:0, instance:rahulshettyacademy.Tests.ErrorValidations@4d518b32]" started-at="2025-05-09T09:15:06 IST" name="lunchAplication" finished-at="2025-05-09T09:15:08 IST" duration-ms="1266" status="PASS">
+        <test-method is-config="true" signature="lunchAplication()[pri:0, instance:rahulshettyacademy.Tests.ErrorValidations@4d518b32]" started-at="2025-05-12T09:14:36 IST" name="lunchAplication" finished-at="2025-05-12T09:14:39 IST" duration-ms="3638" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunchAplication -->
-        <test-method signature="ProductErrorValidation()[pri:0, instance:rahulshettyacademy.Tests.ErrorValidations@4d518b32]" started-at="2025-05-09T09:15:08 IST" name="ProductErrorValidation" finished-at="2025-05-09T09:15:22 IST" duration-ms="14721" status="PASS">
+        <test-method signature="ProductErrorValidation()[pri:0, instance:rahulshettyacademy.Tests.ErrorValidations@4d518b32]" started-at="2025-05-12T09:14:39 IST" name="ProductErrorValidation" finished-at="2025-05-12T09:14:54 IST" duration-ms="14362" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductErrorValidation -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:rahulshettyacademy.Tests.ErrorValidations@4d518b32]" started-at="2025-05-09T09:15:22 IST" name="teardown" finished-at="2025-05-09T09:15:23 IST" duration-ms="291" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:rahulshettyacademy.Tests.ErrorValidations@4d518b32]" started-at="2025-05-12T09:14:54 IST" name="teardown" finished-at="2025-05-12T09:14:54 IST" duration-ms="480" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- rahulshettyacademy.Tests.ErrorValidations -->
     </test> <!-- ErrorValidation -->
-    <test started-at="2025-05-09T09:15:00 IST" name="Submitorder" finished-at="2025-05-09T09:15:42 IST" duration-ms="41215">
+    <test started-at="2025-05-12T09:14:26 IST" name="Submitorder" finished-at="2025-05-12T09:15:16 IST" duration-ms="49943">
       <class name="rahulshettyacademy.Tests.StandAloneTesting">
-        <test-method is-config="true" signature="lunchAplication()[pri:0, instance:rahulshettyacademy.Tests.StandAloneTesting@222a59e6]" started-at="2025-05-09T09:15:01 IST" name="lunchAplication" finished-at="2025-05-09T09:15:05 IST" duration-ms="3971" status="PASS">
+        <test-method is-config="true" signature="lunchAplication()[pri:0, instance:rahulshettyacademy.Tests.StandAloneTesting@222a59e6]" started-at="2025-05-12T09:14:28 IST" name="lunchAplication" finished-at="2025-05-12T09:14:35 IST" duration-ms="6567" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunchAplication -->
-        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:rahulshettyacademy.Tests.StandAloneTesting@222a59e6]" started-at="2025-05-09T09:15:05 IST" name="SubmitOrder" data-provider="getData" finished-at="2025-05-09T09:15:20 IST" duration-ms="15158" status="PASS">
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:rahulshettyacademy.Tests.StandAloneTesting@222a59e6]" started-at="2025-05-12T09:14:35 IST" name="SubmitOrder" data-provider="getData" finished-at="2025-05-12T09:14:51 IST" duration-ms="16514" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -56,15 +56,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SubmitOrder -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:rahulshettyacademy.Tests.StandAloneTesting@222a59e6]" started-at="2025-05-09T09:15:20 IST" name="teardown" finished-at="2025-05-09T09:15:20 IST" duration-ms="338" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:rahulshettyacademy.Tests.StandAloneTesting@222a59e6]" started-at="2025-05-12T09:14:51 IST" name="teardown" finished-at="2025-05-12T09:14:52 IST" duration-ms="304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="lunchAplication()[pri:0, instance:rahulshettyacademy.Tests.StandAloneTesting@222a59e6]" started-at="2025-05-09T09:15:20 IST" name="lunchAplication" finished-at="2025-05-09T09:15:24 IST" duration-ms="3243" status="PASS">
+        <test-method is-config="true" signature="lunchAplication()[pri:0, instance:rahulshettyacademy.Tests.StandAloneTesting@222a59e6]" started-at="2025-05-12T09:14:52 IST" name="lunchAplication" finished-at="2025-05-12T09:14:55 IST" duration-ms="3674" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunchAplication -->
-        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:rahulshettyacademy.Tests.StandAloneTesting@222a59e6]" started-at="2025-05-09T09:15:24 IST" name="SubmitOrder" data-provider="getData" finished-at="2025-05-09T09:15:38 IST" duration-ms="14788" status="PASS">
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:rahulshettyacademy.Tests.StandAloneTesting@222a59e6]" started-at="2025-05-12T09:14:55 IST" name="SubmitOrder" data-provider="getData" finished-at="2025-05-12T09:15:11 IST" duration-ms="15206" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,19 +75,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SubmitOrder -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:rahulshettyacademy.Tests.StandAloneTesting@222a59e6]" started-at="2025-05-09T09:15:38 IST" name="teardown" finished-at="2025-05-09T09:15:39 IST" duration-ms="262" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:rahulshettyacademy.Tests.StandAloneTesting@222a59e6]" started-at="2025-05-12T09:15:11 IST" name="teardown" finished-at="2025-05-12T09:15:11 IST" duration-ms="287" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="lunchAplication()[pri:0, instance:rahulshettyacademy.Tests.StandAloneTesting@222a59e6]" started-at="2025-05-09T09:15:39 IST" name="lunchAplication" finished-at="2025-05-09T09:15:41 IST" duration-ms="1871" status="PASS">
+        <test-method is-config="true" signature="lunchAplication()[pri:0, instance:rahulshettyacademy.Tests.StandAloneTesting@222a59e6]" started-at="2025-05-12T09:15:11 IST" name="lunchAplication" finished-at="2025-05-12T09:15:14 IST" duration-ms="3674" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunchAplication -->
-        <test-method signature="orderHistoryTest()[pri:0, instance:rahulshettyacademy.Tests.StandAloneTesting@222a59e6]" started-at="2025-05-09T09:15:41 IST" name="orderHistoryTest" finished-at="2025-05-09T09:15:41 IST" depends-on-methods="rahulshettyacademy.Tests.StandAloneTesting.SubmitOrder" duration-ms="876" status="PASS">
+        <test-method signature="orderHistoryTest()[pri:0, instance:rahulshettyacademy.Tests.StandAloneTesting@222a59e6]" started-at="2025-05-12T09:15:14 IST" name="orderHistoryTest" finished-at="2025-05-12T09:15:15 IST" depends-on-methods="rahulshettyacademy.Tests.StandAloneTesting.SubmitOrder" duration-ms="939" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderHistoryTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:rahulshettyacademy.Tests.StandAloneTesting@222a59e6]" started-at="2025-05-09T09:15:41 IST" name="teardown" finished-at="2025-05-09T09:15:42 IST" duration-ms="226" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:rahulshettyacademy.Tests.StandAloneTesting@222a59e6]" started-at="2025-05-12T09:15:15 IST" name="teardown" finished-at="2025-05-12T09:15:16 IST" duration-ms="203" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

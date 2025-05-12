@@ -17,8 +17,8 @@ public class ErrorValidations extends BaseTest {
 	
 	@Test(groups = {"ErrorHandling"}, retryAnalyzer=Retry.class)
     public  void LoginErrorMessage() throws IOException {
-        String productName = "ZARA COAT 3";
-        String ConfirmationMessage = "THANKYOU FOR THE ORDER.";
+        //String productName = "ZARA COAT 3";
+        //String ConfirmationMessage = "THANKYOU FOR THE ORDER.";
         
         landingpage.LoginApplication("TestFail@gmail.com", "Testing@2802");
         Assert.assertEquals("Incorrect email or password.", landingpage.getErrorMessage());
@@ -27,8 +27,9 @@ public class ErrorValidations extends BaseTest {
 	
 	@Test
     public  void ProductErrorValidation() throws IOException {
-        String productName = "ZARA COAT 3";
-        String ConfirmationMessage = "THANKYOU FOR THE ORDER.";
+        String productName = "ADIDAS ORIGINAL";
+        //Added this above comment
+        //String ConfirmationMessage = "THANKYOU FOR THE ORDER.";
         
         ProductCatalogue pc =  landingpage.LoginApplication("biswa.relevel.classes@gmail.com", "Biswa@2022");
         

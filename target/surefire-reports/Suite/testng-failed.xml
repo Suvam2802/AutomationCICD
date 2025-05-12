@@ -10,22 +10,9 @@
         <methods>
           <include name="teardown"/>
           <include name="lunchAplication"/>
-          <include name="LoginErrorMessage"/>
           <include name="ProductErrorValidation"/>
         </methods>
       </class> <!-- rahulshettyacademy.Tests.ErrorValidations -->
     </classes>
   </test> <!-- ErrorValidation(failed) -->
-  <test thread-count="5" parallel="tests" name="Submitorder(failed)" verbose="0">
-    <classes>
-      <class name="rahulshettyacademy.Tests.StandAloneTesting">
-        <methods>
-          <include name="orderHistoryTest"/>
-          <include name="teardown"/>
-          <include name="lunchAplication"/>
-          <include name="SubmitOrder"/>
-        </methods>
-      </class> <!-- rahulshettyacademy.Tests.StandAloneTesting -->
-    </classes>
-  </test> <!-- Submitorder(failed) -->
 </suite> <!-- Failed suite [Suite] -->
